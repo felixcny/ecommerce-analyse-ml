@@ -1,0 +1,169 @@
+
+SUPINF || END-TO-END DATA PROJECT LAB || 4DVST
+==============================================
+
+
+E-Commerce Sales Intelligence Mini Project
+
+
+LEARNING OBJECTIVES
+----------------------
+
+By the end of this lab, students should be able to:
+
+- Load and clean real-world datasets
+- Merge multiple datasets
+- Perform exploratory data analysis
+- Create KPIs and visualizations
+- Train a simple machine learning model
+- Evaluate model performance
+- Present business insights
+
+
+BUSINESS SCENARIO
+--------------------
+
+You work as a junior data team for an e-commerce company.
+
+Management believes revenue has been decreasing and wants answers quickly.
+
+Your team must:
+1. Clean and prepare sales data
+2. Analyze customer and product performance
+3. Build a machine learning model to predict revenue
+4. Present recommendations to management
+
+
+FILES PROVIDED
+-----------------
+
+orders.csv
+customers.csv
+products.csv
+
+
+REQUIRED TOOLS
+-----------------
+
+Students should use:
+- Python
+- Pandas
+- Matplotlib
+- Scikit-learn
+- Jupyter Notebook (option)
+
+
+DATA ENGINEERING
+----------------------------
+
+OBJECTIVE:
+Build a clean analytics dataset.
+
+Students should:
+- Inspect datasets
+- Remove duplicates
+- Handle missing values
+- Standardize category names
+- Convert date columns
+- Merge datasets
+- Create a revenue column
+- Create time-based features
+
+Expected Output:
+- Clean merged dataset
+- Revenue feature
+- Time features
+
+
+DATA ANALYSIS
+-------------------------
+
+OBJECTIVE:
+Generate business insights.
+
+Students must answer:
+
+1. Which category generates the most revenue?
+2. Which city has the highest sales?
+3. Which products sell the most?
+4. What is the average order value?
+5. Which day of the week generates the most revenue?
+
+Students should also create:
+- Bar chart for revenue by category
+- Pie chart for payment methods
+- Line chart for revenue over time
+
+Expected Output:
+- 3 charts
+- 5 business insights
+- KPI summary
+
+
+MACHINE LEARNING
+-----------------------------
+
+OBJECTIVE:
+Predict order revenue.
+
+Target Variable:
+Revenue
+
+Suggested Features:
+- quantity
+- city
+- category
+- age
+
+Suggested Models:
+- Linear Regression
+- Random Forest
+
+Students should:
+- Split train/test data
+- Train a model
+- Generate predictions
+- Evaluate performance
+
+Suggested Metrics:
+- MAE
+- R² Score
+
+Expected Output:
+- Trained model
+- Evaluation metrics
+- Prediction discussion
+
+
+FINAL PRESENTATION
+-------------------------------
+
+Each group presents:
+
+Slide 1:
+- Data cleaning challenges
+- How issues were fixed
+
+Slide 2:
+- Main business insights
+
+Slide 3:
+- ML model and evaluation metrics
+
+Slide 4:
+- Business recommendations
+
+
+
+BONUS CHALLENGES
+--------------------
+- Use SQL
+- Build a Streamlit dashboard
+- Try XGBoost
+- Perform feature engineering
+
+FINAL SUMMARY
+-----------------
+
+This lab simulates a real-world workflow: Raw Data → Cleaning → Analysis → Machine Learning → Business Insights
+
